@@ -1,4 +1,494 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Namubiru Doreen">
+    <meta name="keywords" content="Namubiru Doreen,Varian,Dntech,Variandn,Doreen,Namubiru">
+    <title>My profile</title>
+    <!--for awesome font icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo/name -->
+            <div class="logo">
+                Doreen <span class="highlight">Namubiru</span>
+            </div>
 
+            <!-- Hamburger -->
+            <input type="checkbox" id="nav-check">
+            <label for="nav-check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <!-- Nav Links -->
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#blog">blog</a></li>
+                <li><a href="#team">team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO / LANDING PAGE -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Hello, I'm <span class="name">Doreen Namubiru</span></h1>
+                <h2>IT Specialist • Graphic &amp; Web Designer • Web &amp; App Developer • Networking Expert</h2>
+                <p class="tagline">Turning ideas into powerful digital experiences from Kampala, Uganda</p>
+                
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn primary-btn">View My Portfolio</a>
+                    <a href="#contact" class="btn secondary-btn">Let's Collaborate</a>
+                    <a href="#" class="btn cv-btn" onclick="alert('CV download link would go here in a real file (e.g., doreen-namubiru-cv.pdf)')">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-behance"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://picsum.photos/id/1005/600/600" alt="Doreen Namubiru">
+                <div class="image-badge">
+                    <span>Available for projects</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="https://picsum.photos/id/1005/500/500" alt="Doreen Namubiru">
+                </div>
+                <div class="about-content">
+                    <p>With over 2 years in the technology industry, I specialize in creating visually stunning and functionally robust digital solutions. I combine creative design expertise with strong technical skills in web development, application development, and enterprise networking.</p>
+                    
+                    <p>Based in Mukono, Uganda, I have helped startups and established organizations build brands, launch websites, develop custom applications, and establish secure, high-performance network infrastructures.</p>
+                    
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="label">Location</span>
+                            <span class="value">Mukono, Uganda</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Email</span>
+                            <span class="value">doreenvalian04@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Phone</span>
+                            <span class="value">+256 750687268</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Experience</span>
+                            <span class="value">2+ Years</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title">What I Offer</h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Design &amp; Development</h3>
+                    <p>Modern, responsive, SEO optimized and high-performing websites built with the latest technologies.</p>
+                    <ul class="service-list">
+                        <li>HTML5 • CSS3 • Javascript</li>
+                        <li>React • Node.js</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Web &amp; Mobile Applications</h3>
+                    <p>Custom web and cross-platform mobile applications that solve real business problems.</p>
+                    <ul class="service-list">
+                        <li>React Native • Flutter</li>
+                        <li>Node.js • Firebase</li>
+                        <li>Full-stack solutions</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Graphic Design &amp; Branding</h3>
+                    <p>Eye-catching logos, brand identities, UI/UX designs, and marketing materials.</p>
+                    <ul class="service-list">
+                        <li>Adobe Creative Suite</li>
+                        <li>Figma • Canva Pro</li>
+                        <li>Brand Guidelines</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Networking &amp; IT Infrastructure</h3>
+                    <p>Professional network design, implementation, security, and ongoing support.</p>
+                    <ul class="service-list">
+                        <li>Cisco</li>
+                        <li>Firewall &amp; VPN</li>
+                        <li>Cloud Migration (AWS/Azure)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/id/201/600/400" alt="ShopLocal Uganda">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ShopLocal Uganda</h3>
+                        <p>Full-stack e-commerce platform for local Ugandan vendors with real-time inventory and payments.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/id/133/600/400" alt="FinTrust Rebrand">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Case Study <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>FinTrust Bank Rebrand</h3>
+                        <p>Complete visual identity, website, and marketing collateral for a leading microfinance institution.</p>
+                        <div class="tech-stack">
+                            <span>Figma</span>
+                            <span>Photoshop</span>
+                            <span>Illustrator</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/id/251/600/400" alt="Kampala Health App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Kampala Health Connect</h3>
+                        <p>Cross-platform mobile app for booking doctors and managing health records in Uganda.</p>
+                        <div class="tech-stack">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/id/180/600/400" alt="School Network">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>St. Mary’s School Network</h3>
+                        <p>Complete campus-wide network infrastructure, Wi-Fi, CCTV, and managed firewall deployment.</p>
+                        <div class="tech-stack">
+                            <span>Cisco</span>
+                            <span>MikroTik</span>
+                            <span>Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="#" class="btn primary-btn">View All Projects →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Skills &amp; Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 98%"></div>
+                    </div>
+                    <span class="skill-name">HTML5 / CSS3 / Javascript</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend Frameworks</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                    </div>
+                    <span class="skill-name">React • Next.js • Vue</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Graphic Design</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 92%"></div>
+                    </div>
+                    <span class="skill-name">Figma • Photoshop • Illustrator</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend &amp; Databases</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 78%"></div>
+                    </div>
+                    <span class="skill-name">Node.js • Firebase • MongoDB</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Networking &amp; Infrastructure</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                    <span class="skill-name">Cisco • MikroTik • VPN • Security</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Mobile Development</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 82%"></div>
+                    </div>
+                    <span class="skill-name">Flutter • React Native</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="stats">
+        <div class="container">
+          <div class="stats-grid">
+            <div class="stat-item">
+              <i class="ti-user"></i>
+              <span class="counter">785</span>
+              <h5>Happy Clients</h5>
+            </div>
+            <div class="stat-item">
+              <i class="ti-thumb-up"></i>
+              <span class="counter">385</span>
+              <h5>Projects Done</h5>
+            </div>
+            <div class="stat-item">
+              <i class="ti-face-smile"></i>
+              <span class="counter">845</span>
+              <h5>Cups of Tea</h5>
+            </div>
+            <div class="stat-item">
+              <i class="ti-cup"></i>
+              <span class="counter">225</span>
+              <h5>Awards Won</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="cta-section">
+        <div class="container">
+          <div class="cta-box">
+            <div class="cta-left">
+              <span class="highlight">All-in-One Solution</span>
+              <h2>Have any project in mind?</h2>
+            </div>
+            <div class="cta-right">
+              <a href="#contact" class="btn btn-primary smooth-scroll">
+                Contact Me <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section" id="blog">
+        <div class="container">
+          <div class="section-header text-center">
+            <h2>News Feed</h2>
+            <p>Omnis est dolores commodi ullam tempora sequi asperiores ipsum autem ex aliquam.</p>
+          </div>
+      
+          <div class="blog-grid">
+            <div class="blog-card">
+              <img src="assets/images/blog1.jpg" alt="Blog post" class="blog-image">
+              <div class="blog-content">
+                <span class="blog-meta"><i class="ti-comments"></i> 2 Comments</span>
+                <h4><a href="blog-single.html">How To Build Honest UIs And Help Users Make Better</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corrupti...</p>
+                <a href="blog-single.html" class="read-more">Read More <i class="ti-angle-right"></i></a>
+              </div>
+            </div>
+      
+            <div class="blog-card">
+              <img src="assets/images/blog2.jpg" alt="Blog post" class="blog-image">
+              <div class="blog-content">
+                <span class="blog-meta"><i class="ti-comments"></i> 2 Comments</span>
+                <h4><a href="blog-single.html">Dating Apps: How To Improve Your Designs</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corrupti...</p>
+                <a href="blog-single.html" class="read-more">Read More <i class="ti-angle-right"></i></a>
+              </div>
+            </div>
+      
+            <div class="blog-card">
+              <img src="assets/images/blog3.jpg" alt="Blog post" class="blog-image">
+              <div class="blog-content">
+                <span class="blog-meta"><i class="ti-comments"></i> 2 Comments</span>
+                <h4><a href="blog-single.html">Meet Inclusive Front-End Design Patterns</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corrupti...</p>
+                <a href="blog-single.html" class="read-more">Read More <i class="ti-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section" id="testimonial">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-5">
+              <div class="title-block">
+                <h2>Clients Say</h2>
+                <p>Reiciendis, reprehenderit, quas impedit ea repudiandae non quibusdam nulla pariatur rerum numquam ipsum corporis...</p>
+                <a href="#contact" class="btn btn-primary smooth-scroll">
+                  Get Started <i class="fa fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+      
+            <div class="col-lg-7">
+              <div class="testimonial-slider">
+                <div class="testimonial-item">
+                  <div class="testimonial-text">
+                    <i class="ti-quote-left"></i>
+                    <h4 class="text-primary">Code Quality!</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis architecto vel nesciunt...</p>
+                    <div class="author">
+                      <h5>Khalid Farhan</h5>
+                      <p>Themeturn</p>
+                    </div>
+                  </div>
+                  <div class="testimonial-photo">
+                    <img src="assets/images/test-1.jpg" alt="Khalid Farhan">
+                  </div>
+                </div>
+      
+                <!-- Repeat similar structure for other 3 items -->
+                <div class="testimonial-item">
+                  <div class="testimonial-text">
+                    <i class="ti-quote-left"></i>
+                    <h4 class="text-primary">Design!</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis architecto vel nesciunt...</p>
+                    <div class="author">
+                      <h5>Md. Tanvir</h5>
+                      <p>Themeturn</p>
+                    </div>
+                  </div>
+                  <div class="testimonial-photo">
+                    <img src="assets/images/test-2.jpg" alt="Md. Tanvir">
+                  </div>
+                </div>
+      
+                <!-- Add the remaining two items in the same pattern -->
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--About Code Queens with <br> break -->
+      <p>
+        Thanks to Code Queens it is an amazing initiative that empowers women in tech across Africa.<br>
+        It provides training, mentorship, and support to help ladies master coding and build their careers in technology.
+    </p>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2026 Doreen Namubiru. All Rights Reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+     
+    <!-- Update year automatically -->
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script>
+        // Simple form submission alert (demo only)
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you! Your message has been received. (This is a demo - no real submission)');
+            this.reset();
+        });
+    </script>
+</body>
 </html>
