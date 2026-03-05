@@ -98,8 +98,31 @@ img {
     .container,
     .nav-container,
     .hero-container {
-        padding: 0 3rem;        /* more breathing room on larger screens */
+        padding: 0 3rem;  
     }
+}
+
+.greeting {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #475569;         
+    margin: 0 0 0.5rem 0;
+    letter-spacing: 1.2px;
+}
+
+@media (max-width: 768px) {
+    .greeting {
+        font-size: 1.45rem;
+        margin-bottom: 0.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .greeting {
+        font-size: 1.35rem;
+    }
+    
 }
 /* ====================== NAVBAR ====================== */
 .navbar {
