@@ -1,74 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Namubiru Doreen">
-    <!--SEO optimaization-->
-    <meta name="keywords" content="Namubiru Doreen,Varian,Dntech,Variandn,Doreen,Namubiru">
-    <title>My profile</title>
-    <!--for awesome font icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- GOOGLE FONTS -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ===== PRIMARY SEO ===== -->
+    <title>Doreen Namubiru | IT Specialist, Web & Graphic Designer – Mukono, Uganda</title>
+    <meta name="description"
+        content="Doreen Namubiru (Varian DN) – IT Specialist, Graphic &amp; Web Designer, App Developer and Networking Expert based in Mukono, Uganda. Turning ideas into powerful digital experiences.">
+    <meta name="keywords"
+        content="Doreen Namubiru,Doreen,Namubiru,Varian,DN, Variandn, Dntech, IT Specialist Uganda, Web Designer Mukono, Graphic Designer Uganda, App Developer Uganda, Network Engineer Uganda, Doreen Namubiru portfolio">
+    <meta name="author" content="Doreen Namubiru">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#6c3de0">
+    <link rel="canonical" href="https://variandn.github.io/DN-profile/">
+
+    <!-- ===== OPEN GRAPH (Facebook, LinkedIn, WhatsApp) ===== -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://variandn.github.io/DN-profile/">
+    <meta property="og:title" content="Doreen Namubiru | IT Specialist & Web Designer – Uganda">
+    <meta property="og:description"
+        content="IT Specialist, Graphic & Web Designer, App Developer and Networking Expert. 2+ years of experience helping startups and organisations build powerful digital experiences from Mukono, Uganda.">
+    <meta property="og:image" content="https://variandn.github.io/DN-profile/img/dn1.jpg">
+    <meta property="og:image:alt" content="Doreen Namubiru – IT Specialist and Web Designer">
+    <meta property="og:locale" content="en_UG">
+    <meta property="og:site_name" content="Doreen Namubiru Portfolio">
+
+    <!-- ===== TWITTER / X CARD ===== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@variandn">
+    <meta name="twitter:title" content="Doreen Namubiru | IT Specialist & Web Designer – Uganda">
+    <meta name="twitter:description"
+        content="IT Specialist, Graphic & Web Designer, App Developer and Networking Expert based in Mukono, Uganda.">
+    <meta name="twitter:image" content="https://variandn.github.io/DN-profile/img/dn1.jpg">
+
+    <!-- ===== STRUCTURED DATA (JSON-LD) ===== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Doreen Namubiru",
+      "alternateName": ["Varian DN", "Variandn", "Dntech"],
+      "url": "https://variandn.github.io/DN-profile/",
+      "image": "https://variandn.github.io/DN-profile/img/dn1.jpg",
+      "sameAs": [
+        "https://www.linkedin.com/in/doreen-namubiru-410a78285",
+        "https://github.com/variandn",
+        "https://www.instagram.com/varian.dn"
+      ],
+      "jobTitle": "IT Specialist & Web Designer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Dntech"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mukono",
+        "addressCountry": "UG"
+      },
+      "email": "doreenvalian04@gmail.com",
+      "telephone": "+256750687268",
+      "description": "IT Specialist, Graphic & Web Designer, App Developer and Networking Expert with 2+ years experience based in Mukono, Uganda."
+    }
+    </script>
+
+    <!-- ===== FAVICON PLACEHOLDER (replace with real icon) ===== -->
+    <link rel="icon" type="image/png" href="img/dn1.jpg">
+    <link rel="apple-touch-icon" href="img/dn1.jpg">
+
+    <!-- ===== PERFORMANCE: PRELOADS & RESOURCE HINTS ===== -->
+    <!-- Preload hero image early so LCP is not delayed -->
+    <link rel="preload" as="image" href="img/dn1.jpg">
+    <!-- DNS prefetch for external origins -->
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+    <!-- ===== FONTS & ICONS ===== -->
+    <!-- Font Awesome loaded asynchronously — zero render-blocking -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </noscript>
+    <!-- Google Fonts: preconnect + font-display=swap eliminates FOIT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <!-- Logo/name -->
-            <div class="logo">
+            <a href="#home" class="logo" aria-label="Doreen Namubiru – Home">
                 Doreen <span class="highlight">Namubiru</span>
-            </div>
+            </a>
 
-            <!-- Hamburger 
-            <input type="checkbox" id="nav-check">
-            <label for="nav-check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>-->
+            <!-- Hamburger button -->
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false"
+                aria-controls="nav-menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
 
             <!-- Nav Links -->
-            <ul class="nav-list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#testimonial">Testimonial</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="nav-list" id="nav-menu" role="menubar">
+                <li role="none"><a href="#home" role="menuitem">Home</a></li>
+                <li role="none"><a href="#about" role="menuitem">About</a></li>
+                <li role="none"><a href="#services" role="menuitem">Services</a></li>
+                <li role="none"><a href="#portfolio" role="menuitem">Portfolio</a></li>
+                <li role="none"><a href="#skills" role="menuitem">Skills</a></li>
+                <li role="none"><a href="#testimonial" role="menuitem">Testimonial</a></li>
+                <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- HERO / LANDING PAGE -->
-    <section id="home" class="hero">
-        <div class="hero-container">
+    <section id="home" class="hero" aria-label="Hero section">
+        <div class="hero-container container">
             <div class="hero-text">
                 <h1>Hello, I'm <span class="name">Doreen Namubiru</span></h1>
                 <h2>IT Specialist • Graphic &amp; Web Designer • Web &amp; App Developer • Networking Expert</h2>
                 <p class="tagline">Turning ideas into powerful digital experiences from Mukono, Uganda</p>
-                
+
                 <div class="hero-buttons">
-                    <a href="#portfolio" class="btn primary-btn">View My Portfolio</a>
-                    <a href="#contact" class="btn secondary-btn">Let's Collaborate</a>
-                    <a href="#" class="btn cv-btn" onclick="alert('CV download link would go here in a real file')">
-                        <i class="fas fa-download"></i> Download CV
+                    <a href="#portfolio" class="btn primary-btn" id="hero-portfolio-btn">View My Portfolio</a>
+                    <a href="#contact" class="btn secondary-btn" id="hero-contact-btn">Let's Collaborate</a>
+                    <a href="Doreen_Namubiru_CV.pdf" download class="btn cv-btn" id="hero-cv-btn">
+                        <i class="fas fa-download" aria-hidden="true"></i> Download CV
                     </a>
                 </div>
 
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/doreen-namubiru-410a78285" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/variandn" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://wa.me/+256750687268" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://www.instagram.com/varian.dn?igsh=bGlmNXE2nQOcDM5" target="_blank"><i class="fab fa-instagram"></i></a>
+                <div class="social-links" aria-label="Social media links">
+                    <a href="https://www.linkedin.com/in/doreen-namubiru-410a78285" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn profile">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/variandn" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub profile">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://wa.me/256750687268?text=Hello%20Doreen,%20I'm%20interested%20in%20working%20with%20you."
+                        target="_blank" rel="noopener noreferrer" aria-label="WhatsApp contact">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/varian.dn?igsh=bGlmNXE2nQOcDM5" target="_blank"
+                        rel="noopener noreferrer" aria-label="Instagram profile">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
                 </div>
             </div>
 
             <div class="hero-image">
-                <img src="img/dn1.jpg" alt="Doreen Namubiru">
+                <img src="img/dn1.jpg" alt="Doreen Namubiru – IT Specialist and Web Designer from Mukono, Uganda"
+                    width="380" height="380" loading="eager" fetchpriority="high" decoding="async">
                 <div class="image-badge">
                     <span>Available for projects</span>
                 </div>
@@ -77,18 +169,23 @@
     </section>
 
     <!-- ABOUT -->
-    <section id="about" class="about section">
+    <section id="about" class="about section" aria-labelledby="about-heading">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title" id="about-heading">About Me</h2>
             <div class="about-grid">
                 <div class="about-img">
-                    <img src="img/dn2.jpg" alt="Doreen Namubiru">
+                    <img src="img/dn2.jpg" alt="Doreen Namubiru at work – IT professional and web designer" width="500"
+                        height="600" loading="lazy">
                 </div>
                 <div class="about-content">
-                    <p>With over 2 years in the technology industry, I specialize in creating visually stunning and functionally robust digital solutions. I combine creative design expertise with strong technical skills in web development, application development, and enterprise networking.</p>
-                    
-                    <p>Based in Mukono, Uganda, I have helped startups and established organizations build brands, launch websites, develop custom applications, and establish secure, high-performance network infrastructures.</p>
-                    
+                    <p>With over 2 years in the technology industry, I specialize in creating visually stunning and
+                        functionally robust digital solutions. I combine creative design expertise with strong technical
+                        skills in web development, application development, and enterprise networking.</p>
+
+                    <p>Based in Mukono, Uganda, I have helped startups and established organisations build brands,
+                        launch websites, develop custom applications, and establish secure, high-performance network
+                        infrastructures.</p>
+
                     <div class="about-info">
                         <div class="info-item">
                             <span class="label">Location</span>
@@ -96,11 +193,16 @@
                         </div>
                         <div class="info-item">
                             <span class="label">Email</span>
-                            <span class="value">doreenvalian04@gmail.com</span>
+                            <span class="value">
+                                <a href="mailto:doreenvalian04@gmail.com"
+                                    aria-label="Send email to Doreen">doreenvalian04@gmail.com</a>
+                            </span>
                         </div>
                         <div class="info-item">
                             <span class="label">Phone</span>
-                            <span class="value">+256 750687268</span>
+                            <span class="value">
+                                <a href="tel:+256750687268" aria-label="Call Doreen">+256 750 687 268</a>
+                            </span>
                         </div>
                         <div class="info-item">
                             <span class="label">Experience</span>
@@ -108,47 +210,48 @@
                         </div>
                     </div>
 
-                    <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                    <a href="#contact" class="btn primary-btn" id="about-contact-btn">Get In Touch</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- SERVICES -->
-    <section id="services" class="services section">
+    <section id="services" class="services section" aria-labelledby="services-heading">
         <div class="container">
-            <h2 class="section-title">What I Offer</h2>
+            <h2 class="section-title" id="services-heading">What I Offer</h2>
             <div class="services-grid">
                 <!-- Service 1 -->
-                <div class="service-card">
-                    <div class="service-icon">
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">
                         <i class="fas fa-laptop-code"></i>
                     </div>
                     <h3>Web Design &amp; Development</h3>
-                    <p>Modern, responsive, SEO optimized and high-performing websites built with the latest technologies.</p>
+                    <p>Modern, responsive, SEO-optimized and high-performing websites built with the latest
+                        technologies.</p>
                     <ul class="service-list">
                         <li>HTML5 • CSS3 • Javascript</li>
                         <li>React • Node.js</li>
                     </ul>
-                </div>
+                </article>
 
                 <!-- Service 2 -->
-                <div class="service-card">
-                    <div class="service-icon">
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <h3>Web &amp; Mobile Applications</h3>
                     <p>Custom web and cross-platform mobile applications that solve real business problems.</p>
                     <ul class="service-list">
                         <li>React Native • Flutter</li>
-                        <li>Node.js.Java</li>
+                        <li>Node.js • Java</li>
                         <li>Full-stack solutions</li>
                     </ul>
-                </div>
+                </article>
 
                 <!-- Service 3 -->
-                <div class="service-card">
-                    <div class="service-icon">
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">
                         <i class="fas fa-palette"></i>
                     </div>
                     <h3>Graphic Design &amp; Branding</h3>
@@ -158,11 +261,11 @@
                         <li>Figma • Canva Pro</li>
                         <li>Brand Guidelines</li>
                     </ul>
-                </div>
+                </article>
 
                 <!-- Service 4 -->
-                <div class="service-card">
-                    <div class="service-icon">
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">
                         <i class="fas fa-network-wired"></i>
                     </div>
                     <h3>Networking &amp; IT Infrastructure</h3>
@@ -172,320 +275,406 @@
                         <li>Firewall &amp; VPN</li>
                         <li>Cloud Migration (AWS/Azure)</li>
                     </ul>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
     <!-- PORTFOLIO -->
-    <section id="portfolio" class="portfolio section">
+    <section id="portfolio" class="portfolio section" aria-labelledby="portfolio-heading">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
+            <h2 class="section-title" id="portfolio-heading">Featured Projects</h2>
             <div class="portfolio-grid">
-                
+
                 <!-- Project 1 -->
-                <div class="portfolio-card">
+                <article class="portfolio-card">
                     <div class="project-image">
-                        <img src="img/dntech.png" alt="Dntech">
-                        <div class="project-overlay">
+                        <img src="img/dntech.png" alt="Dntech – woman-led tech company website by Doreen Namubiru"
+                            width="600" height="400" loading="lazy">
+                        <div class="project-overlay" aria-hidden="true">
                             <a href="#" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                     <div class="project-info">
                         <h3>Dntech</h3>
-                        <p>Complete visual identity, website, and marketing collateral for a leading woman lead tech comapny.</p>
-                        <div class="tech-stack">
+                        <p>Complete visual identity, website, and marketing collateral for a leading woman-led tech
+                            company.</p>
+                        <div class="tech-stack" aria-label="Technologies used">
                             <span>HTML</span>
-                            <span>Twailand</span>
-                            <span>MYSQL</span>
+                            <span>Tailwind</span>
+                            <span>MySQL</span>
                         </div>
                     </div>
-                </div>
-                
+                </article>
+
                 <!-- Project 2 -->
-                <div class="portfolio-card">
+                <article class="portfolio-card">
                     <div class="project-image">
-                        <img src="img/fn1.jpg" alt="Graphics design">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link">View Case Study <i class="fas fa-external-link-alt"></i></a>
+                        <img src="img/fn1.webp" alt="Election campaign graphics design project by Doreen Namubiru"
+                            width="600" height="400" loading="lazy">
+                        <div class="project-overlay" aria-hidden="true">
+                            <a href="#" class="project-link">View Case Study <i
+                                    class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>Graphics design</h3>
-                        <p>Complete visual branding for elections campingn.</p>
-                        <div class="tech-stack">
-                           <span>Illustrator</span>
-                           <span>Photoshop</span>
-            
+                        <h3>Graphics Design</h3>
+                        <p>Complete visual branding for an elections campaign.</p>
+                        <div class="tech-stack" aria-label="Technologies used">
+                            <span>Illustrator</span>
+                            <span>Photoshop</span>
                         </div>
                     </div>
-                </div>
-                     <!-- Project 3 -->
-                <div class="portfolio-card">
+                </article>
+
+                <!-- Project 3 -->
+                <article class="portfolio-card">
                     <div class="project-image">
-                        <img src="img/agribridge.jpg" alt="Agribridge">
-                        <div class="project-overlay">
+                        <img src="img/agribridge.jpg"
+                            alt="Agribridge – agricultural e-commerce platform built by Doreen Namubiru" width="600"
+                            height="400" loading="lazy">
+                        <div class="project-overlay" aria-hidden="true">
                             <a href="#" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                     <div class="project-info">
                         <h3>Agribridge</h3>
-                        <p>Full-stack e-commerce platform for Agricultural produce in  Uganda with real-time inventory.</p>
-                        <div class="tech-stack">
+                        <p>Full-stack e-commerce platform for agricultural produce in Uganda with real-time inventory.
+                        </p>
+                        <div class="tech-stack" aria-label="Technologies used">
                             <span>HTML</span>
-                            <span>JAVA</span>
-                            <span>MYSQL</span>
+                            <span>Java</span>
+                            <span>MySQL</span>
                             <span>CSS</span>
-                           <span>Javascript</span>
+                            <span>JavaScript</span>
                         </div>
                     </div>
-                </div>
-
+                </article>
 
                 <!-- Project 4 -->
-                <div class="portfolio-card">
+                <article class="portfolio-card">
                     <div class="project-image">
-                        <img src="https://picsum.photos/id/180/600/400" alt="School Network">
-                        <div class="project-overlay">
+                        <img src="img/dnt1.jpg" alt="St. Mary's School campus-wide network infrastructure project"
+                            width="600" height="400" loading="lazy" decoding="async">
+                        <div class="project-overlay" aria-hidden="true">
                             <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>St. Mary’s School Network</h3>
-                        <p>Complete campus-wide network infrastructure, Wi-Fi, CCTV, and managed firewall deployment.</p>
-                        <div class="tech-stack">
+                        <h3>St. Mary's School Network</h3>
+                        <p>Complete campus-wide network infrastructure, Wi-Fi, CCTV, and managed firewall deployment.
+                        </p>
+                        <div class="tech-stack" aria-label="Technologies used">
                             <span>Cisco</span>
-                           <span>Security</span>
+                            <span>Security</span>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
             <div class="view-more">
-                <a href="#" class="btn primary-btn">View All Projects →</a>
+                <a href="#" class="btn primary-btn" id="portfolio-more-btn">View All Projects →</a>
             </div>
         </div>
     </section>
 
     <!-- SKILLS -->
-    <section id="skills" class="skills section">
+    <section id="skills" class="skills section" aria-labelledby="skills-heading">
         <div class="container">
-            <h2 class="section-title">Skills &amp; Expertise</h2>
+            <h2 class="section-title" id="skills-heading">Skills &amp; Expertise</h2>
             <div class="skills-grid">
                 <div class="skill-category">
                     <h3>Web Development</h3>
-                    <div class="progress-bar">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0"
+                        aria-valuemax="100" aria-label="Web Development skill level: 98%">
                         <div class="progress-fill" style="width: 98%"></div>
                     </div>
-                    <span class="skill-name">HTML5 •CSS3 •Javascript </span>
+                    <span class="skill-name">HTML5 • CSS3 • Javascript</span>
                 </div>
                 <div class="skill-category">
                     <h3>Frontend Frameworks</h3>
-                    <div class="progress-bar">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                        aria-valuemax="100" aria-label="Frontend Frameworks skill level: 90%">
                         <div class="progress-fill" style="width: 90%"></div>
                     </div>
                     <span class="skill-name">React</span>
                 </div>
                 <div class="skill-category">
                     <h3>Graphic Design</h3>
-                    <div class="progress-bar">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0"
+                        aria-valuemax="100" aria-label="Graphic Design skill level: 92%">
                         <div class="progress-fill" style="width: 92%"></div>
                     </div>
                     <span class="skill-name">Figma • Photoshop • Illustrator</span>
                 </div>
                 <div class="skill-category">
                     <h3>Backend &amp; Databases</h3>
-                    <div class="progress-bar">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0"
+                        aria-valuemax="100" aria-label="Backend and Databases skill level: 78%">
                         <div class="progress-fill" style="width: 78%"></div>
                     </div>
-                    <span class="skill-name">Node.js • MYSQL • MongoDB</span>
+                    <span class="skill-name">Node.js • MySQL • MongoDB</span>
                 </div>
                 <div class="skill-category">
                     <h3>Networking &amp; Infrastructure</h3>
-                    <div class="progress-bar">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                        aria-valuemax="100" aria-label="Networking skill level: 95%">
                         <div class="progress-fill" style="width: 95%"></div>
                     </div>
                     <span class="skill-name">Cisco • VPN • Security</span>
                 </div>
                 <div class="skill-category">
                     <h3>Mobile Development</h3>
-                    <div class="progress-bar">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0"
+                        aria-valuemax="100" aria-label="Mobile Development skill level: 82%">
                         <div class="progress-fill" style="width: 82%"></div>
                     </div>
-                    <span class="skill-name">Flutter • Android studio</span>
+                    <span class="skill-name">Flutter • Android Studio</span>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="stats">
+    <!-- STATS -->
+    <section class="stats" aria-label="Statistics">
         <div class="container">
-          <div class="stats-grid">
-            <div class="stat-item">
-              <i class="ti-user"></i>
-              <span class="counter">20+</span>
-              <h5>Happy Clients</h5>
-            </div>
-            <div class="stat-item">
-              <i class="ti-thumb-up"></i>
-              <span class="counter">35+</span>
-              <h5>Projects Done</h5>
-            </div>
-            <div class="stat-item">
-              <i class="ti-face-smile"></i>
-              <span class="counter">3+</span>
-              <h5>Countries</h5>
-            </div>
-           
-          </div>
-        </div>
-      </section>
-      
-      <section class="cta-section">
-        <div class="container">
-          <div class="cta-box">
-            <div class="cta-left">
-              <span class="highlight">All-in-One Solution</span>
-              <h2>Have any project in mind?</h2>
-            </div>
-            <div class="cta-right">
-              <a href="#contact" class="btn btn-primary smooth-scroll">
-                Contact Me <i class="fa fa-angle-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <section class="section" id="blog">
-        <div class="container">
-          <div class="section-header text-center">
-            <h2>News Feed</h2>
-            <p>Omnis est dolores commodi ullam tempora sequi asperiores ipsum autem ex aliquam.</p>
-          </div>
-      
-          <div class="blog-grid">
-            <div class="blog-card">
-              <img src="assets/images/blog1.jpg" alt="Blog post" class="blog-image">
-              <div class="blog-content">
-                <span class="blog-meta"><i class="ti-comments"></i> 2 Comments</span>
-                <h4><a href="blog-single.html">How To Build Honest UIs And Help Users Make Better</a></h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corrupti...</p>
-                <a href="blog-single.html" class="read-more">Read More <i class="ti-angle-right"></i></a>
-              </div>
-            </div>
-      
-            <div class="blog-card">
-              <img src="assets/images/blog2.jpg" alt="Blog post" class="blog-image">
-              <div class="blog-content">
-                <span class="blog-meta"><i class="ti-comments"></i> 2 Comments</span>
-                <h4><a href="blog-single.html">Dating Apps: How To Improve Your Designs</a></h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corrupti...</p>
-                <a href="blog-single.html" class="read-more">Read More <i class="ti-angle-right"></i></a>
-              </div>
-            </div>
-      
-            <div class="blog-card">
-              <img src="assets/images/blog3.jpg" alt="Blog post" class="blog-image">
-              <div class="blog-content">
-                <span class="blog-meta"><i class="ti-comments"></i> 2 Comments</span>
-                <h4><a href="blog-single.html">Meet Inclusive Front-End Design Patterns</a></h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corrupti...</p>
-                <a href="blog-single.html" class="read-more">Read More <i class="ti-angle-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <section class="section" id="testimonial">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-5">
-              <div class="title-block">
-                <h2>Clients Say</h2>
-                <p>Reiciendis, reprehenderit, quas impedit ea repudiandae non quibusdam nulla pariatur rerum numquam ipsum corporis...</p>
-                <a href="#contact" class="btn btn-primary smooth-scroll">
-                  Get Started <i class="fa fa-angle-right"></i>
-                </a>
-              </div>
-            </div>
-      
-            <div class="col-lg-7">
-              <div class="testimonial-slider">
-                <div class="testimonial-item">
-                  <div class="testimonial-text">
-                    <i class="ti-quote-left"></i>
-                    <h4 class="text-primary">Code Quality!</h4>
-                    <p>we imagine you gave it life...</p>
-                    <div class="author">
-                      <h5>Dir.James</h5>
-                      <p>CEO Jemoarts studios</p>
-                    </div>
-                  </div>
-                  <div class="testimonial-photo">
-                    <img src="img/it-professional-writing-code-safeguarding-data-center-from-unauthorized-access (1).jpg" alt="Jemoarts">
-                  </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <i class="fas fa-users" aria-hidden="true"></i>
+                    <span class="counter">20+</span>
+                    <h5>Happy Clients</h5>
                 </div>
-      
-                <!-- items 3 -->
-                <div class="testimonial-item">
-                  <div class="testimonial-text">
-                    <i class="ti-quote-left"></i>
-                    <h4 class="text-primary">Design!</h4>
-                    <p>your design brought our idea to life...</p>
-                    <div class="author">
-                      <h5>Mary</h5>
-                      <p>CEO MARIEUSHERS UG</p>
-                    </div>
-                  </div>
-                  <div class="testimonial-photo">
-                    <img src="img/marieushers.jpg" alt="Marie ushers">
-                  </div>
+                <div class="stat-item">
+                    <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+                    <span class="counter">35+</span>
+                    <h5>Projects Done</h5>
                 </div>
-      
-                
-      
-              </div>
+                <div class="stat-item">
+                    <i class="fas fa-globe-africa" aria-hidden="true"></i>
+                    <span class="counter">3+</span>
+                    <h5>Countries</h5>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <!--About Code Queens with <br> break -->
-      <p>
-        Thanks to Code Queens it is an amazing initiative that empowers women in tech across Africa.<br>
-        It provides training, mentorship, and support to help ladies master coding and build their careers in technology.
-    </p>
+    <!-- CTA SECTION -->
+    <section class="cta-section" aria-label="Call to action">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-left">
+                    <span class="highlight">All-in-One Solution</span>
+                    <h2>Have any project in mind?</h2>
+                </div>
+                <div class="cta-right">
+                    <a href="#contact" class="btn primary-btn" id="cta-contact-btn">
+                        Contact Me <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section" id="testimonial" aria-labelledby="testimonial-heading">
+        <div class="container">
+            <h2 class="section-title" id="testimonial-heading">Clients Say</h2>
+            <div class="testimonial-grid">
+
+                <article class="testimonial-item">
+                    <div class="testimonial-text">
+                        <i class="fas fa-quote-left" aria-hidden="true"></i>
+                        <h3 class="text-primary">Code Quality!</h3>
+                        <blockquote>
+                            <p>We imagine you gave it life...</p>
+                        </blockquote>
+                        <div class="author">
+                            <h4>Dir. James</h4>
+                            <p>CEO, Jemoarts Studios</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-photo">
+                        <img src="img/jemo.jpg" alt="Dir. James – CEO of Jemoarts Studios" width="160" height="160"
+                            loading="lazy" decoding="async">
+                    </div>
+                </article>
+
+                <article class="testimonial-item">
+                    <div class="testimonial-text">
+                        <i class="fas fa-quote-left" aria-hidden="true"></i>
+                        <h3 class="text-primary">Design!</h3>
+                        <blockquote>
+                            <p>Your design brought our idea to life...</p>
+                        </blockquote>
+                        <div class="author">
+                            <h4>Mary</h4>
+                            <p>CEO, Marieushers UG</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-photo">
+                        <img src="img/marieushers.jpg" alt="Mary – CEO of Marieushers UG" width="160" height="160"
+                            loading="lazy">
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+        <div class="container">
+            <h2 class="section-title" id="contact-heading">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>Have a project in mind or just want to chat? Feel free to reach out — I'd love to hear from you.
+                    </p>
+                    <div class="contact-details">
+                        <div>
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:doreenvalian04@gmail.com">doreenvalian04@gmail.com</a>
+                        </div>
+                        <div>
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <a href="tel:+256750687268">+256 750 687 268</a>
+                        </div>
+                        <div>
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <span>Mukono, Uganda</span>
+                        </div>
+                    </div>
+                    <div class="social-large" aria-label="Social media">
+                        <a href="https://www.linkedin.com/in/doreen-namubiru-410a78285" target="_blank"
+                            rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/variandn" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://wa.me/256750687268?text=Hello%20Doreen,%20I'm%20interested%20in%20working%20with%20you."
+                            target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/varian.dn?igsh=bGlmNXE2nQOcDM5" target="_blank"
+                            rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="contact-name">Full Name</label>
+                        <input type="text" id="contact-name" name="name" placeholder="Your name" required
+                            autocomplete="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email Address</label>
+                        <input type="email" id="contact-email" name="email" placeholder="your@email.com" required
+                            autocomplete="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Subject</label>
+                        <input type="text" id="contact-subject" name="subject" placeholder="Project inquiry">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message" rows="5"
+                            placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn" id="contact-submit-btn">
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-left">
-                    <p>&copy; 2026 Doreen Namubiru. All Rights Reserved.</p>
+                    <p>&copy; <span id="year"></span> Doreen Namubiru. All Rights Reserved.</p>
                 </div>
-                <div class="footer-right">
+                <nav class="footer-right" aria-label="Footer navigation">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#portfolio">Portfolio</a>
                     <a href="#contact">Contact</a>
-                </div>
+                </nav>
             </div>
         </div>
     </footer>
-     
-    <!-- Update year automatically -->
+
     <script>
+        // Auto-update year
         document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-    <script>
-        // Simple form submission alert
-        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+
+        // Hamburger menu toggle
+        const hamburgerBtn = document.getElementById('hamburger-btn');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburgerBtn.addEventListener('click', function () {
+            const isOpen = navMenu.classList.toggle('nav-open');
+            hamburgerBtn.classList.toggle('is-active', isOpen);
+            hamburgerBtn.setAttribute('aria-expanded', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        });
+
+        // Close nav when a link is clicked (mobile)
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('nav-open');
+                hamburgerBtn.classList.remove('is-active');
+                hamburgerBtn.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            });
+        });
+
+        // Close nav on resize to desktop
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                navMenu.classList.remove('nav-open');
+                hamburgerBtn.classList.remove('is-active');
+                hamburgerBtn.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            }
+        });
+
+        // Contact form
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
             e.preventDefault();
-            alert('Thank you! Your message has been received. (This is a demo - no real submission)');
+
+            const name = document.getElementById('contact-name').value;
+            const email = document.getElementById('contact-email').value;
+            const subject = document.getElementById('contact-subject').value || 'Project Inquiry';
+            const message = document.getElementById('contact-message').value;
+
+            const mailtoLink = `mailto:doreenvalian04@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message)}`;
+
+            window.location.href = mailtoLink;
             this.reset();
         });
+
+        // Navbar shrink on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Animate skill bars on scroll (IntersectionObserver)
+        const fills = document.querySelectorAll('.progress-fill');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.width = entry.target.getAttribute('data-width');
+                }
+            });
+        }, { threshold: 0.4 });
+
+        fills.forEach(fill => {
+            const w = fill.style.width;
+            fill.setAttribute('data-width', w);
+            fill.style.width = '0';
+            observer.observe(fill);
+        });
     </script>
+
 </body>
+
 </html>
